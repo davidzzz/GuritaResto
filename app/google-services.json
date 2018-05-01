@@ -1,25 +1,33 @@
 {
   "project_info": {
-    "project_number": "405838264341",
-    "project_id": "restoran-178706"
+    "project_number": "292940086430",
+    "project_id": "gurita-resto"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:405838264341:android:033c90d3e6d2a230",
+        "mobilesdk_app_id": "1:292940086430:android:72e13e712d668d52",
         "android_client_info": {
-          "package_name": "com.ushare"
+          "package_name": "com.guritadigital.resto"
         }
       },
       "oauth_client": [
         {
-          "client_id": "405838264341-gpocabpe14tjme4jjsvahfti9soh9or6.apps.googleusercontent.com",
+          "client_id": "292940086430-9t1ccamd9o6oc3039khdkhe7hmb8ds0i.apps.googleusercontent.com",
           "client_type": 3
+        },
+        {
+          "client_id": "292940086430-h69mr0qaa20ap7ish40g5kqf1ab0d8ke.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.guritadigital.resto",
+            "certificate_hash": "e2036b629d0fb03bc57589ffc70105c22b6cb178"
+          }
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDZn0L2QP63u1GybZViGcW3nMWepBsHD8M"
+          "current_key": "AIzaSyBv5fOJVUOh3RZUBPcc-zIHxmfLDEby5Vs"
         }
       ],
       "services": {

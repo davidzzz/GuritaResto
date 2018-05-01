@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.ushare">
+    package="com.guritadigital.resto">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_PHONE_STATE" />
@@ -14,7 +14,7 @@
     <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
-        android:name=".app.myapp"
+        android:name="com.guritadigital.resto.app.myapp"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -22,7 +22,7 @@
         android:supportsRtl="true"
         android:theme="@style/MyMaterialTheme">
         <activity
-            android:name=".SplashActivity"
+            android:name="com.guritadigital.resto.SplashActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -32,7 +32,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
+            android:name="com.guritadigital.resto.MainActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait">
             <intent-filter>
@@ -42,47 +42,47 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Intro"
+            android:name="com.guritadigital.resto.Intro"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".OrderDetail"
+            android:name="com.guritadigital.resto.OrderDetail"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".LoginActivity"
+            android:name="com.guritadigital.resto.LoginActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".RegisterActivity"
+            android:name="com.guritadigital.resto.RegisterActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".MenuActivity"
+            android:name="com.guritadigital.resto.MenuActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ListSeller"
+            android:name="com.guritadigital.resto.ListSeller"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ProdukActivity"
+            android:name="com.guritadigital.resto.ProdukActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".CartActivity"
+            android:name="com.guritadigital.resto.CartActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".ProfileActivity"
+            android:name="com.guritadigital.resto.ProfileActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".TabActivity"
+            android:name="com.guritadigital.resto.TabActivity"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
         <activity
-            android:name=".AddProduk"
+            android:name="com.guritadigital.resto.AddProduk"
             android:label="@string/app_name"
             android:screenOrientation="portrait" />
 
@@ -114,54 +114,54 @@
 
         <!-- modul meta volley glid -->
         <meta-data
-            android:name="com.ushare.modul.VolleyGlideModule"
+            android:name="com.guritadigital.resto.modul.VolleyGlideModule"
             android:value="GlideModule" />
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="AIzaSyDd4uM8smoWGBhlSNvQL1_1dTyQGj0P4EE" />
         <!-- service fcm simple -->
-        <service android:name=".app.CustomFirebaseMsg">
+        <service android:name="com.guritadigital.resto.app.CustomFirebaseMsg">
             <intent-filter>
                 <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
-        <service android:name=".app.MyfirebaseService">
+        <service android:name="com.guritadigital.resto.app.MyfirebaseService">
             <intent-filter>
                 <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
             </intent-filter>
         </service>
 
-        <activity android:name=".VoucherDetail"
+        <activity android:name="com.guritadigital.resto.VoucherDetail"
             android:screenOrientation="portrait" />
-        <activity android:name=".SpinActivity"
+        <activity android:name="com.guritadigital.resto.SpinActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".HelpActivity"
+        <activity android:name="com.guritadigital.resto.HelpActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".HelpDetailActivity"
+        <activity android:name="com.guritadigital.resto.HelpDetailActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".GambarActivity"
+        <activity android:name="com.guritadigital.resto.GambarActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".FlashDealActivity"
+        <activity android:name="com.guritadigital.resto.FlashDealActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".KategoriActivity"
+        <activity android:name="com.guritadigital.resto.KategoriActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".ReservasiActivity"
+        <activity android:name="com.guritadigital.resto.ReservasiActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".ProdukDetailActivity"
+        <activity android:name="com.guritadigital.resto.ProdukDetailActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".LupaPasswordActivity"
+        <activity android:name="com.guritadigital.resto.LupaPasswordActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".SentPoinActivity"
+        <activity android:name="com.guritadigital.resto.SentPoinActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".KonfirmasiPoinActivity"
+        <activity android:name="com.guritadigital.resto.KonfirmasiPoinActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".SentPoinOrderActivity"
+        <activity android:name="com.guritadigital.resto.SentPoinOrderActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".ReservasiDetailActivity"
+        <activity android:name="com.guritadigital.resto.ReservasiDetailActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".FeedbackActivity"
+        <activity android:name="com.guritadigital.resto.FeedbackActivity"
             android:screenOrientation="portrait" />
-        <activity android:name=".FeedbackDetailActivity"
+        <activity android:name="com.guritadigital.resto.FeedbackDetailActivity"
             android:screenOrientation="portrait" />
     </application>
 

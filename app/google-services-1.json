@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "15701427733",
-    "project_id": "firebase-restoran"
+    "project_number": "292940086430",
+    "project_id": "gurita-resto"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:15701427733:android:033c90d3e6d2a230",
+        "mobilesdk_app_id": "1:292940086430:android:72e13e712d668d52",
         "android_client_info": {
-          "package_name": "com.ushare"
+          "package_name": "com.guritadigital.resto"
         }
       },
       "oauth_client": [
         {
-          "client_id": "15701427733-umo0mjg8vqa87e0ab14ti3rg9bf2qbkr.apps.googleusercontent.com",
+          "client_id": "292940086430-9t1ccamd9o6oc3039khdkhe7hmb8ds0i.apps.googleusercontent.com",
           "client_type": 3
         },
         {
-          "client_id": "15701427733-vsu25mcfkjkom99hbursasokdt2fq4rs.apps.googleusercontent.com",
+          "client_id": "292940086430-h69mr0qaa20ap7ish40g5kqf1ab0d8ke.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
-            "package_name": "com.ushare",
-            "certificate_hash": "9df37523b2e3ffe2468ca8eabc7fcd20573f4b46"
+            "package_name": "com.guritadigital.resto",
+            "certificate_hash": "e2036b629d0fb03bc57589ffc70105c22b6cb178"
           }
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyBo7Ab8DH2khUyzTu6TUGKEDv1Kto5o-fU"
+          "current_key": "AIzaSyBv5fOJVUOh3RZUBPcc-zIHxmfLDEby5Vs"
         }
       ],
       "services": {

@@ -15,7 +15,7 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal">
 
-        <com.ushare.view.SquareImage
+        <com.guritadigital.resto.view.SquareImage
             android:layout_width="50dp"
             android:layout_height="50dp"
             android:layout_marginRight="10dp"

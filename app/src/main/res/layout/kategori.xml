@@ -83,7 +83,7 @@
                         android:layout_height="wrap_content" />
 
                 </LinearLayout>
-                <com.ushare.view.ExpandableHeightGridView
+                <com.guritadigital.resto.view.ExpandableHeightGridView
                     android:id="@+id/gridView1"
                     android:layout_width="fill_parent"
                     android:layout_height="wrap_content"
@@ -92,7 +92,7 @@
                     android:layout_margin="5dp"
                     android:visibility="gone">
 
-                </com.ushare.view.ExpandableHeightGridView>
+                </com.guritadigital.resto.view.ExpandableHeightGridView>
 
                 <LinearLayout
                     android:layout_width="match_parent"

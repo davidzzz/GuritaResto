@@ -5,7 +5,7 @@
     android:layout_margin="10dp"
     android:orientation="vertical">
 
-    <com.ushare.view.SquareImage
+    <com.guritadigital.resto.view.SquareImage
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:background="@drawable/shape"
